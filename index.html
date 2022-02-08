@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+  
+  <title>NFT preview card component</title>
+
+  
+  <style>
+
+    @media only screen and (max-width: 375px) {
+
+    }
+
+    @media only screen and (max-width: 1440px) {
+      
+    }
+
+      * {
+      margin: 0;
+      padding: 0;
+      }
+
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: Outfit;
+      }
+
+    .box-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+      
+      border: 1px solid rgb(177, 177, 177);
+      margin-top: 7%;
+      margin-left: 40%;
+      margin-right: 40%;
+
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+
+      background-color: hsl(216, 43%, 21%);
+      border-radius: 3%;
+      
+    }
+
+    .box-img {
+      border: 1px solid rgb(57, 45, 99);
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      max-width: 100%;
+  height: auto;
+      
+      
+    }
+
+    .box-text {
+     
+      margin: 10% 11% 0 11%;
+      
+            
+    }
+
+    h3 {
+      color: white;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    p {
+      
+      color: hsl(212, 45%, 89%);
+      font-size: 0.8rem;
+   
+    }
+
+   .p-eth {
+    display: flex;
+    justify-content: space-between;
+    color: hsl(212, 45%, 89%);
+    font-size: 0.8rem;
+
+    }
+
+    .span-eth {
+      color: rgb(95, 255, 196);
+      font-size: 0.8rem;
+    }
+
+    .days {
+      font-weight: bold;
+    }
+    
+    #name {
+      text-align: center;
+    }
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<div class="box-container">
+  <div class="box-img"> 
+    <img src="./images/image-equilibrium.jpg" height="200px" width="200px">
+  </div>
+
+
+  <div class="box-text">
+    <h3>Equilibrium #3429</h3>
+    <br>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+    <br>
+    <div class="p-eth">
+      <div><p><b><span class="span-eth">0.041 ETH</b></span></div> <div><span class="days">3 days left</span></p></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <p id="name">Creation by: Ciro M.</p>
+    <br>
+  </div>
+</div>
+
+</body>
+</html>
