@@ -2,7 +2,11 @@ Hello, this is my solution of the challenge from Frontend Mentor.
 
 I hope you enjoy it!
 
--
+Solution:
+
+![Screenshot_2](https://user-images.githubusercontent.com/84854141/153038823-9f26ded5-cade-4403-a356-a68ebb3eb847.png)
+
+------------------------------------------
 
 # Frontend Mentor - NFT preview card component
 
